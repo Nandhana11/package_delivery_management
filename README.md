@@ -1,6 +1,6 @@
 # package_delivery_management
 This Java-based console application is designed to manage package delivery operations efficiently. It provides functionalities for managing packages, personnel, routes, and vehicles through a user-friendly command-line interface (CLI). The project utilizes JDBC for database connectivity and follows a structured object-oriented design.
-
+ 
 Project Structure
 The project is organized as follows:
 src/
