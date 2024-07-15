@@ -71,14 +71,4 @@ public class Package {
     public void setDeliveryDate(Date deliveryDate) {
         this.deliveryDate = deliveryDate;
     }
-//    public String toString() {
-//        return "Package{" +
-//                ", description='" + description + '\'' +
-//                ", weight=" + weight +
-//                ", destination='" + destination + '\'' +
-//                ", Status='" + Status + '\'' +
-//                ", deliveryDate=" + deliveryDate +
-//                '}';
-//    }
-
 }

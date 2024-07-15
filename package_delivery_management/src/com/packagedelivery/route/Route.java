@@ -63,17 +63,6 @@ public class Route {
 	    public void setEstimatedTime(LocalTime estimatedTime) {
 	        this.estimatedTime = estimatedTime;
 	    }
-
-	    @Override
-	    public String toString() {
-	        return "Route{" +
-	                "routeId=" + routeId +
-	                ", startLocation='" + startLocation + '\'' +
-	                ", endLocation='" + endLocation + '\'' +
-	                ", distance=" + distance +
-	                ", estimatedTime='" + estimatedTime + '\'' +
-	                '}';
-	    }
 	}
 
 

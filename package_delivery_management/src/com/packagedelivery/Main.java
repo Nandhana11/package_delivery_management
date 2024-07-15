@@ -109,7 +109,7 @@ public class Main {
 	                          deliveryDate= dateFormat.parse(inputDate);
 	                      } catch (ParseException e) {
 	                          System.out.println("Error parsing date: " + e.getMessage());
-	                          deliveryDate = null; // Handle parsing error gracefully in your application
+	                          deliveryDate = null; 
 	                      }
 	                	
 	                	
@@ -129,7 +129,6 @@ public class Main {
 	                        System.out.println("Delivery Date: " + dateFormat.format(pkg.getDeliveryDate()));
 	                        System.out.println("-----------------------------------");
 	                    }
-	                    // Implement viewing package details
 	                    break;
 	                case 3:
 	                	System.out.println("Enter Package id to update");
@@ -169,7 +168,7 @@ public class Main {
 	                    p.deletePackage(deletePackageId);
 	                    break;
 	                case 5:
-	                    return; // Return to main menu
+	                    return; 
 	                default:
 	                    System.out.println("Invalid choice. Please enter a number between 1 and 5.");
 	            }
@@ -191,8 +190,7 @@ public class Main {
             sc.nextLine();
 
             switch (choice) {
-                case 1:
-                   // Consume newline
+                case 1:	
                     System.out.println("Enter Start Location");
                     String start_location = sc.nextLine();
                     System.out.println("Enter End Location");
@@ -232,9 +230,9 @@ public class Main {
                             newDistance = sc.nextDouble();
                         } catch (InputMismatchException i) {
                             System.out.println("Please enter a valid number for distance");
-                            sc.next(); // Consume invalid input
+                            sc.next(); 
                         }
-                        sc.nextLine(); // Consume newline
+                        sc.nextLine(); 
                         System.out.println("Enter new estimated time");
                         String newEstimatedTimeStr1 = sc.next();
                         LocalTime newEstimatedTime1=null;
@@ -257,7 +255,7 @@ public class Main {
                     r.deleteRoute(deleteRouteId);
                     break;
                 case 5:
-                    return; // Return to main menu
+                    return;
                 default:
                     System.out.println("Invalid choice. Please enter a number between 1 and 5.");
             }
@@ -399,7 +397,7 @@ public class Main {
                     vehicleDAO.deleteVehicle(deleteVehicleId);
                     break;
                 case 5:
-                    return; // Return to main menu
+                    return;
                 default:
                     System.out.println("Invalid choice. Please enter a number between 1 and 5.");
             }
