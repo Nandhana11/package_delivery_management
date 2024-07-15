@@ -51,22 +51,29 @@ Functionality
 The application provides the following functionalities:
 
 Manage Package: Add, view, update, and delete package details.
+
 Manage Personnel: Add, view, update, and delete personnel details.
+
 Manage Routes: Add, view, update, and delete route information.
+
 Manage Vehicles: Add, view, update, and delete vehicle details.
+
 Setup and Usage
 Prerequisites
 Java SE Development Kit (JDK)
 MySQL JDBC driver for database connectivity
+
 Setup
 Clone the repository:
 git clone <repository_url>
 Import the project into your preferred Java IDE.
 Configure database credentials in DatabaseUtil.java.
 Set up the database schema using the provided SQL scripts.
+
 Running the Application
 Compile and run Main.java to start the application.
 Follow the prompts in the CLI to perform various management tasks (adding, viewing, updating, deleting).
+
 Dependencies
 JDBC driver for MySQL
 Java SE Development Kit (JDK)
